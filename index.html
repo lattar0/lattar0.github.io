@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <meta name="title" content="s h a u n 95">
+    <meta name="description" content="here are all my information, which are useful...">
+    <meta name="keywords" content="portfolio, site, shaun, shaundev, shaundeveloper">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
 
+
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,55 +24,36 @@
   </head>
 
   <body>
-    <div class="taskbar">
-      <div class="startmenuicon">
+    <footer class="taskbar">
+      
+      <label class="startmenuicon" for="startmenu">
         <img src="./assets/icons/startmenu.png" alt="startmenu" />
         <span>Start</span>
-      </div>
+      </label>
+      
+      <input type="checkbox" id="startmenu" style="display: none;">
+      <div class="startmenu">
 
+        <div class="logo-left-side">
+          <strong>Shaun <span style="color:white">95</span></strong>
+        </div>
+
+        <ul>
+          <li>Programs</span>
+          <li>Documents</li>
+          <li>Settings</li>
+          <li>Find</li>
+          <li>Help</li>
+          <li>Run</li>
+          <li>Shut down...</li>
+        </ul>
+      </div>
       <div class="clock">
         <img src="./assets/icons/volume.png"/>
         <span id="hour"></span>
       </div>
-
-      <div class="startmenu">
-        <div class="logo-left-side">
-          <strong style="color:white">95</strong>
-          <strong>Shaun</strong>
-        </div>
-
-        <div>
-          <span>Programs</span>
-        </div>
-
-        <div>
-          <span>Documents</span>
-        </div>
-
-        <div>
-          <span>Settings</span>
-        </div>
-
-        <div>
-          <span>Find</span>
-        </div>
-
-        <div>
-          <span>Help</span>
-        </div>
-
-        <div>
-          <span>Run</span>
-        </div>
-
-        <div>
-          <span>Shut down...</span>
-        </div>
-      </div>
-    </div>
-
+  
+    </footer>
     <script src="./main.js"></script>
-
   </body>
-    
 </html>
